@@ -33,7 +33,17 @@ body {
   display: flex;
 }
 
+.html-skill,
+.css-skill,
+.js-skill,
+.backend-skill,
+.other-skill {
+  width: 150px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
 .scrollspy {
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
 }
