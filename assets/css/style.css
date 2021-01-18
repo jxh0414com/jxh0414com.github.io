@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #333333;
+}
+
+.sidenav {
+  background-color: #333333;
+}
+
+.sidenav-link li:hover {
+  border-left: 3px solid skyblue;
+}
+
+.sidenav-link li a.active {
+  border-left: 3px solid skyblue;
+}
+
+.info_image {
+  border-radius: 50%;
+}
+
+.card-description li {
+  display: flex;
+}
+
+.card-skill {
+  display: flex;
+}
+
+.scrollspy {
+  position: relative;
+  min-height: 100vh;
+}
