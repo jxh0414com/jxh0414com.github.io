@@ -38,12 +38,27 @@ body {
 .js-skill,
 .backend-skill,
 .other-skill {
-  width: 150px;
+  width: 100px;
   max-height: 100px;
   min-height: 100px;
+  text-align: center;
 }
 
 .scrollspy {
   position: relative;
   min-height: 50vh;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
