@@ -54,3 +54,12 @@ h1 {
 .contact-icon {
   font-size: 50px;
 }
+
+.project-card {
+  height: 500px;
+  overflow: hidden;
+}
+
+.project-card .card-action {
+  padding: 20px 0;
+}
