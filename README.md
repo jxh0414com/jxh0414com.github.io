@@ -1,3 +1,8 @@
-# jxh0414com.github.io
+# Juhuang (Simon) Xue Portfolio
 
-Juhuang (Simon) Xue Portfolio
+HTML5
+CSS3
+Materialize CSS
+Javascript
+
+
