@@ -1,8 +1,10 @@
 # Juhuang (Simon) Xue Portfolio
 
-HTML5
-CSS3
-Materialize CSS
-Javascript
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Materialize CSS</li>
+  <li>Javascript</li>
+ </ul>
 
 
