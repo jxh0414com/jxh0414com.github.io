@@ -7,15 +7,13 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" rel="stylesheet">
     <link href="./assets/css/helper.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -26,7 +24,7 @@
         <div class="row hide-on-large-only">
             <nav class="grey darken-3">
                 <div class="nav-wrapper">
-                    <a href="/" class="brand-logo center">Juhuang Xue<a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="fas fa-bars"></i></a></a>
+                    <a href="/" class="brand-logo center">Juhuang Xue<a href="#" data-target="slide-out" class="sidenav-trigger right" aria-label="Mobile Navbar"><i class="fas fa-bars"></i></a></a>
                 </div>
             </nav>
     
@@ -34,16 +32,16 @@
                 <li>
                     <div class="user-view center">
                         <div>
-                            <img src="./assets/images/bio.jpg" class="info_image responsive-img">
+                            <img src="./assets/images/bio.jpg" alt="Juhuang Xue" class="info_image responsive-img">
                             <h4 class="white-text">Juhuang (Simon) Xue</h4>
                             <p class="white-text">Full Stack Developer</p>
                         </div>
     
                         <div>
-                            <a href="mailto:jxh0414.com@gmail.com"><i class="fas fa-envelope white-text px-2"></i></a>
-                            <a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" target="_blank"><i
+                            <a href="mailto:jxh0414.com@gmail.com"><i class="fas fa-envelope white-text px-2" aria-label="jxh0414.com@gmail.com"></i></a>
+                            <a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" target="_blank" aria-label="LinkedIn"><i
                                     class="fab fa-linkedin-in white-text px-2"></i></a>
-                            <a href="https://www.github.com/jxh0414com" target="_blank"><i
+                            <a href="https://www.github.com/jxh0414com" target="_blank" aria-label="Github"><i
                                     class="fab fa-github-alt white-text px-2"></i></a>
                         </div>
                     </div>
@@ -53,30 +51,32 @@
                     <div class="divider"></div>
                 </li>
     
-                <div class="center sidenav-link">
-                    <li><a href="#about" class="white-text">
-                            <p><i class="fas fa-user px-2"></i>About</p>
-                        </a></li>
-                    <li><a href="#experience" class="white-text">
-                            <p><i class="fas fa-history px-2"></i>Experience</p>
-                        </a></li>
-                    <li><a href="#projects" class="white-text">
-                            <p><i class="fas fa-scroll px-2"></i>Projects</p>
-                        </a></li>
-                    <li><a href="#skills" class="white-text">
-                            <p><i class="fas fa-torah px-2"></i>Skills</p>
-                        </a></li>
-                    <li><a href="#education" class="white-text">
-                            <p><i class="fas fa-graduation-cap px-2"></i>Education</p>
-                        </a></li>
-                    <li><a href="#contact" class="white-text">
-                            <p><i class="fas fa-map-marked-alt px-2"></i>Contact</p>
-                        </a></li>
-                    <li><a href="https://docs.google.com/uc?export=download&id=1v_c-onVnOaIUJ076V4HvS4PgrUXBlS88" class="white-text">
-                            <p><i class="fas fa-file-signature px-2"></i>Resume</p>
-                        </a></li>
-                </div>
-              </ul>
+                <li>
+                    <ul class="center sidenav-link">
+                        <li><a href="#about" class="white-text">
+                                <p><i class="fas fa-user px-2"></i>About</p>
+                            </a></li>
+                        <li><a href="#experience" class="white-text">
+                                <p><i class="fas fa-history px-2"></i>Experience</p>
+                            </a></li>
+                        <li><a href="#projects" class="white-text">
+                                <p><i class="fas fa-scroll px-2"></i>Projects</p>
+                            </a></li>
+                        <li><a href="#skills" class="white-text">
+                                <p><i class="fas fa-torah px-2"></i>Skills</p>
+                            </a></li>
+                        <li><a href="#education" class="white-text">
+                                <p><i class="fas fa-graduation-cap px-2"></i>Education</p>
+                            </a></li>
+                        <li><a href="#contact" class="white-text">
+                                <p><i class="fas fa-map-marked-alt px-2"></i>Contact</p>
+                            </a></li>
+                        <li><a href="https://docs.google.com/uc?export=download&id=1v_c-onVnOaIUJ076V4HvS4PgrUXBlS88" class="white-text">
+                                <p><i class="fas fa-file-signature px-2"></i>Resume</p>
+                            </a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
 
         <div id="about" class="section scrollspy p-0">
@@ -88,7 +88,7 @@
 
             <div class="row">
                 <div class="col s12 m8 l1 push-l3 push-m2">
-                    <img src="assets/images/images.jpg" class="responsive-img">
+                    <img src="assets/images/images.jpg" alt="Image1" class="responsive-img">
                 </div>
             </div> <!-- Row -->
 
@@ -112,7 +112,7 @@
 
             <div class="row">
                 <div class="col s12 m8 l1 push-l10 push-m2">
-                    <img src="assets/images/images2.jpg" class="responsive-img">
+                    <img src="assets/images/images2.jpg" alt="Image2" class="responsive-img">
                 </div>
             </div> <!-- Row -->
 
@@ -176,7 +176,7 @@
                             </ul>
                         </div>
                         <div class="card-action">
-                            <div class="subheader white-text">January 2020 - Present | New Berlin, NY <i class="fas fa-ellipsis-h activator tooltipped right " data-position="top" data-tooltip="Tech used"></i></div>
+                            <div class="subheader white-text">January 2020 - Present | New Berlin, NY <i class="fas fa-ellipsis-h activator tooltipped right " data-position="top" data-tooltip="Accomplishments"></i></div>
                         </div>
                     </div>
                     <!-- Golden Artist Colors Experience -->
@@ -227,7 +227,7 @@
                         </div>
                         <div class="card-action">
                             <div class="subheader white-text">May 2019 - August 2019 | Manhattan, NY <i class="fas fa-ellipsis-h activator tooltipped right"
-                                    data-position="top" data-tooltip="Tech used"></i></div>
+                                    data-position="top" data-tooltip="Accomplishments"></i></div>
                         </div>
                     </div>
                     <!-- Art Related Things Experience -->
@@ -281,7 +281,7 @@
                         </div>
                         <div class="card-action">
                             <div class="subheader white-text">October 2018 - February 2019 | Brooklyn, NY <i class="fas fa-ellipsis-h activator tooltipped right"
-                                    data-position="top" data-tooltip="Tech used"></i></div>
+                                    data-position="top" data-tooltip="Accomplishments"></i></div>
                         </div>
                     </div>
                     <!-- 72 Steel and Aluminum Work Inc Experience -->
@@ -304,7 +304,7 @@
                     <div class="col s12 m4 l3 px-0">
                         <div class="card grey project-card" >
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="./assets/images/projects/expense-tracker.png" height="300">
+                                <img class="activator" src="./assets/images/projects/expense-tracker.jpg" alt="Expense Tracker" height="300">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Expense Tracker<i
@@ -337,8 +337,8 @@
 
                                 <div class="card-action">
                                     <div class="subheader white-text">
-                                       <a href="https://github.com/jxh0414com/laravel-vue-expense.tracker" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
-                                       <a href="https://secure-bastion-06094.herokuapp.com/" target="_blank" class="btn-floating btn-large mx-1"><i class="fas fa-code px-2"></i></a>
+                                       <a href="https://github.com/jxh0414com/laravel-vue-expense.tracker" aria-label="Github" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
+                                       <a href="https://secure-bastion-06094.herokuapp.com/" aria-label="Expense-Tracker" target="_blank" class="btn-floating btn-large mx-1"><i class="fas fa-code px-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -348,7 +348,7 @@
                     <div class="col s12 m4 l3 px-0">
                         <div class="card grey project-card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="./assets/images/projects/react-todo.png" height="300">
+                                <img class="activator" src="./assets/images/projects/react-todo.jpg" alt="React Todo" height="300">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">React-Todo<i
@@ -380,7 +380,7 @@
 
                                 <div class="card-action">
                                     <div class="subheader white-text">
-                                       <a href="https://github.com/jxh0414com/react-redux-todo" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
+                                       <a href="https://github.com/jxh0414com/react-redux-todo" aria-label="Github" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +390,7 @@
                     <div class="col s12 m4 l3 px-0">
                         <div class="card grey project-card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="./assets/images/projects/nodejs-ecom.png" height="300">
+                                <img class="activator" src="./assets/images/projects/nodejs-ecom.jpg" alt="Node-JS Ecommerce" height="300">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Nodejs-ecom<i
@@ -422,7 +422,7 @@
 
                                 <div class="card-action">
                                     <div class="subheader white-text">
-                                       <a href="https://github.com/jxh0414com/nodejs_fake.ecom" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
+                                       <a href="https://github.com/jxh0414com/nodejs_fake.ecom" aria-label="Github" target="_blank" class="btn-floating btn-large black mx-1"><i class="fab fa-github-alt px-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -448,26 +448,26 @@
                     <!--  HTML skill card  -->
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="card-title">Javascript</h1>
+                            <h2 class="card-title">HTML</h2>
                             <div class="divider"></div>
                             <div class="row py-2">
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/html/html.png" class="responsive-img html-skill">
+                                    <img src="assets/images/html/html.jpg" class="responsive-img html-skill" alt="HTML5">
                                     <p>HTML5</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/html/ejs.gif" class="responsive-img html-skill">
+                                    <img src="assets/images/html/ejs.jpg" class="responsive-img html-skill" alt="EJS">
                                     <p>EJS</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/html/bladephp.png" class="responsive-img html-skill">
+                                    <img src="assets/images/html/blade.jpg" class="responsive-img html-skill" alt="BladePHP">
                                     <p>BladePHP</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/html/jsx.png" class="responsive-img html-skill center">
+                                    <img src="assets/images/html/jsx.jpg" class="responsive-img html-skill" alt="JSX">
                                     <p>JSX</p>
                                 </div>
                             </div>
@@ -478,46 +478,46 @@
                     <!--  CSS skill card  -->
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="card-title">CSS</h1>
+                            <h2 class="card-title">CSS</h2>
                             <div class="divider"></div>
                             <div class="row py-2">
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/CSS3.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/css3.jpg" class="responsive-img css-skill" alt="CSS3">
                                     <p>CSS3</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/SASS.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/sass.jpg" class="responsive-img css-skill" alt="SASS">
                                     <p>SASS</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/Bootstrap.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/bootstrap.jpg" class="responsive-img css-skill" alt="Bootstrap">
                                     <p>Bootstrap</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/MaterializeCSS.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/materialize.jpg" class="responsive-img css-skill" alt="Materialize">
                                     <p>Materialize</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/SemanticUI.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/semanticUI.jpg" class="responsive-img css-skill" alt="Semantic UI">
                                     <p>Semantic</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/Reactstrap.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/reactstrap.jpg" class="responsive-img css-skill" alt="Reactstrap">
                                     <p>Reactstrap</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/AntDesign.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/antDesign.jpg" class="responsive-img css-skill" alt="Ant Design">
                                     <p>Ant Design</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/css/Vuetify.png" class="responsive-img css-skill">
+                                    <img src="assets/images/css/vuetify.jpg" class="responsive-img css-skill" alt="Vuetify">
                                     <p>Vuetify</p>
                                 </div>
                             </div>
@@ -528,27 +528,37 @@
                     <!--  JS skill card  -->
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="card-title">Javascript</h1>
+                            <h2 class="card-title">Javascript</h2>
                             <div class="divider"></div>
                             <div class="row py-2">
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/js/javascript.png" class="responsive-img js-skill">
+                                    <img src="assets/images/js/javascript.jpg" class="responsive-img js-skill" alt="Javascript">
                                     <p>Javascript</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/js/jquery.png" class="responsive-img js-skill">
+                                    <img src="assets/images/js/jquery.jpg" class="responsive-img js-skill" alt="jQuery">
                                     <p>jQuery</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/js/reactjs.png" class="responsive-img js-skill">
+                                    <img src="assets/images/js/react.jpg" class="responsive-img js-skill" alt="React">
                                     <p>React</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/js/vuejs.png" class="responsive-img js-skill">
+                                    <img src="assets/images/js/redux.jpg" class="responsive-img js-skill" alt="Redux">
+                                    <p>Redux</p>
+                                </div>
+
+                                <div class="col s4 m4 l2 py-1 px-5 center">
+                                    <img src="assets/images/js/vue.jpg" class="responsive-img js-skill" alt="Vue">
                                     <p>Vue</p>
+                                </div>
+
+                                <div class="col s4 m4 l2 py-1 px-5 center">
+                                    <img src="assets/images/js/vuex.jpg" class="responsive-img js-skill" alt="Vuex">
+                                    <p>Vuex</p>
                                 </div>
                             </div>
                         </div>
@@ -559,41 +569,41 @@
                     <!--  BackEnd skill card  -->
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="card-title">Back-End</h1>
+                            <h2 class="card-title">Back-End</h2>
                             <div class="divider"></div>
                             <div class="row py-2">
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/nodejs.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/nodejs.jpg" class="responsive-img backend-skill" alt="Node JS">
                                     <p class="center">Node</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/php.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/php.jpg" class="responsive-img backend-skill" alt="PHP">
                                     <p>PHP</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/expressjs.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/expressjs.jpg" class="responsive-img backend-skill" alt="Express JS">
                                     <p>Express</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/laravel.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/laravel.jpg" class="responsive-img backend-skill" alt="Laravel">
                                     <p>Laravel</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/mongodb.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/mongodb.jpg" class="responsive-img backend-skill" alt="MongoDB">
                                     <p>MongoDB</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/mysql.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/mysql.jpg" class="responsive-img backend-skill" alt="MySQL">
                                     <p>MySQL</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/backend/postgresql.png" class="responsive-img backend-skill">
+                                    <img src="assets/images/backend/postgresql.jpg" class="responsive-img backend-skill" alt="Postgresql">
                                     <p>Postgresql</p>
                                 </div>
                             </div>
@@ -604,36 +614,36 @@
                     <!--  Other skill card  -->
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="card-title">Other</h1>
+                            <h2 class="card-title">Other</h2>
                             <div class="divider"></div>
                             <div class="row py-2">
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/wordpress.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/wordpress.jpg" class="responsive-img other-skill" alt="Wordpress">
                                     <p>WordPress</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/npm.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/npm.jpg" class="responsive-img other-skill" alt="NPM">
                                     <p>NPM</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/composer.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/composer.jpg" class="responsive-img other-skill" alt="Composer">
                                     <p>Composer</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/heroku.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/heroku.jpg" class="responsive-img other-skill" alt="Heroku">
                                     <p>Heroku</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/firebase.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/firebase.jpg" class="responsive-img other-skill" alt="Firebase">
                                     <p>Firebase</p>
                                 </div>
 
                                 <div class="col s4 m4 l2 py-1 px-5 center">
-                                    <img src="assets/images/other/github.png" class="responsive-img other-skill">
+                                    <img src="assets/images/other/github.jpg" class="responsive-img other-skill" alt="Github">
                                     <p>Github</p>
                                 </div>
                             </div>
@@ -688,10 +698,10 @@
             <div class="row"> 
                 <div class="col s12 m8 l8 push-l3 push-m2">
                     <h5>CONTACT ME, I am available for hire and open to any ideas.</h5>
-                  <p class="py-2"><a href="mailto:jxh0414.com@gmail.com" class="btn-floating btn-large pulse lime mx-4"><i class="fas fa-envelope px-2"></i></a href="mailto:jxh0414.com@gmail.com">jxh0414.com@gmail.com</p>
-                  <p class="py-2"><a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" class="btn-floating btn-large pulse blue mx-4" target="_blank"><i class="fab fa-linkedin-in px-2"></i></a><a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/">https://www.linkedin.com/in/juhuang-simon-xue-57b315181/</a></p>
-                  <p class="py-2"><a href="https://www.github.com/jxh0414com" target="_blank" class="btn-floating btn-large pulse black mx-4"><i class="fab fa-github-alt px-2"></i></a><a href="https://www.github.com/jxh0414com">https://www.github.com/jxh0414com</a></p>
-                  <p class="py-2"><a href="tel:6462557585" class="btn-floating btn-large pulse brown mx-4"><i class="fas fa-mobile px-2"></i></a>646-255-7585</p>
+                  <p class="py-2"><a href="mailto:jxh0414.com@gmail.com" class="btn-floating btn-large pulse lime mx-4" aria-label="jxh0414.com@gmail.com"><i class="fas fa-envelope px-2"></i></a href="mailto:jxh0414.com@gmail.com">jxh0414.com@gmail.com</p>
+                  <p class="py-2"><a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" class="btn-floating btn-large pulse blue mx-4" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in px-2"></i></a><a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/">https://www.linkedin.com/in/juhuang-simon-xue-57b315181/</a></p>
+                  <p class="py-2"><a href="https://www.github.com/jxh0414com" target="_blank" class="btn-floating btn-large pulse black mx-4" aria-label="Github"><i class="fab fa-github-alt px-2"></i></a><a href="https://www.github.com/jxh0414com">https://www.github.com/jxh0414com</a></p>
+                  <p class="py-2"><a href="tel:6462557585" class="btn-floating btn-large pulse brown mx-4" aria-label="646-255-7585"><i class="fas fa-mobile px-2"></i></a>646-255-7585</p>
                 </div>
             </div> <!-- Row -->
         </div>
@@ -703,16 +713,16 @@
             <li>
                 <div class="user-view center">
                     <div>
-                        <img src="./assets/images/bio.jpg" class="info_image responsive-img">
+                        <img src="./assets/images/bio.jpg" alt="Juhuang Xue" class="info_image responsive-img">
                         <h4 class="white-text">Juhuang (Simon) Xue</h4>
                         <p class="white-text">Full Stack Developer</p>
                     </div>
 
                     <div>
-                        <a href="mailto:jxh0414.com@gmail.com"><i class="fas fa-envelope white-text px-2"></i></a>
-                        <a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" target="_blank"><i
+                        <a href="mailto:jxh0414.com@gmail.com"><i class="fas fa-envelope white-text px-2" aria-label="jxh0414.com@gmail.com"></i></a>
+                        <a href="https://www.linkedin.com/in/juhuang-simon-xue-57b315181/" target="_blank" aria-label="LinkedIn"><i
                                 class="fab fa-linkedin-in white-text px-2"></i></a>
-                        <a href="https://www.github.com/jxh0414com" target="_blank"><i
+                        <a href="https://www.github.com/jxh0414com" target="_blank" aria-label="Github"><i
                                 class="fab fa-github-alt white-text px-2"></i></a>
                     </div>
                 </div>
@@ -722,29 +732,32 @@
                 <div class="divider"></div>
             </li>
 
-            <div class="center sidenav-link">
-                <li><a href="#about" class="white-text">
-                        <p><i class="fas fa-user px-2"></i>About</p>
-                    </a></li>
-                <li><a href="#experience" class="white-text">
-                        <p><i class="fas fa-history px-2"></i>Experience</p>
-                    </a></li>
-                <li><a href="#projects" class="white-text">
-                        <p><i class="fas fa-scroll px-2"></i>Projects</p>
-                    </a></li>
-                <li><a href="#skills" class="white-text">
-                        <p><i class="fas fa-torah px-2"></i>Skills</p>
-                    </a></li>
-                <li><a href="#education" class="white-text">
-                        <p><i class="fas fa-graduation-cap px-2"></i>Education</p>
-                    </a></li>
-                <li><a href="#contact" class="white-text">
-                        <p><i class="fas fa-map-marked-alt px-2"></i>Contact</p>
-                    </a></li>
-                <li><a href="https://docs.google.com/uc?export=download&id=1v_c-onVnOaIUJ076V4HvS4PgrUXBlS88" class="white-text">
-                        <p><i class="fas fa-file-signature px-2"></i>Resume</p>
-                    </a></li>
-            </div>
+            <li>
+                <ul class="sidenav-link center">
+                    <li><a href="#about" class="white-text">
+                            <p><i class="fas fa-user px-2"></i>About</p>
+                        </a>
+                    </li>
+                    <li><a href="#experience" class="white-text">
+                            <p><i class="fas fa-history px-2"></i>Experience</p>
+                        </a></li>
+                    <li><a href="#projects" class="white-text">
+                            <p><i class="fas fa-scroll px-2"></i>Projects</p>
+                        </a></li>
+                    <li><a href="#skills" class="white-text">
+                            <p><i class="fas fa-torah px-2"></i>Skills</p>
+                        </a></li>
+                    <li><a href="#education" class="white-text">
+                            <p><i class="fas fa-graduation-cap px-2"></i>Education</p>
+                        </a></li>
+                    <li><a href="#contact" class="white-text">
+                            <p><i class="fas fa-map-marked-alt px-2"></i>Contact</p>
+                        </a></li>
+                    <li><a href="https://docs.google.com/uc?export=download&id=1v_c-onVnOaIUJ076V4HvS4PgrUXBlS88" class="white-text">
+                            <p><i class="fas fa-file-signature px-2"></i>Resume</p>
+                        </a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
